@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="Css/style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="continar">
+      <header>
+        <img src="images/logo.png" alt="" />
+        <ul id="list">
+          <li><a href="#serv">SERVICE</a></li>
+          <li><a href="#work">OUR WORK</a></li>
+        </ul>
+        <div class="img">
+          <img src="images/menu_icon.png" class="show" alt="" />
+        </div>
+      </header>
+      <!-- End of Header -->
+      <div class="content-head">
+        <div class="des cont">
+          <img src="images/btn.png" alt="" />
+          <h2>A Digital Creative Agency Landing Page</h2>
+          <button>READ MORE</button>
+        </div>
+        <div class="img-head cont">
+          <img src="images/bann_img.png" alt="" />
+        </div>
+      </div>
+    </div>
+    <!-- ENd of heading -->
+    <section class="sevice" id="serv">
+      <div class="ser-main serv-img flex">
+        <img src="images/pc.png" alt="" />
+      </div>
+      <div class="ser-maiin serv-cont flex">
+        <h2>Full service digital capbilities From end to end workflow</h2>
+        <p>
+          Lorem Ipsum is simply dummy text of the printing and typesetting
+          industry. Lorem Ipsum has been the industry's standard dummy text ever
+          since the 1500s, when an unknown printer took a galley of type and
+          scrambled it to make a type specimen book. It has survived not only
+          five
+        </p>
+        <button>Read More</button>
+      </div>
+    </section>
+    <section class="sevice sevice-1">
+      <div class="serv-img-1 serv-img flex">
+        <img src="images/solusan.png" alt="" />
+      </div>
+      <div class="serv-cont-1 serv-cont flex">
+        <h2>Solutions for every Specific need</h2>
+        <p>
+          Lorem Ipsum is simply dummy text of the printing and typesetting
+          industry. Lorem Ipsum has been the industry's standard dummy text ever
+          since the 1500s, when an unknown printer took a galley of type and
+          scrambled it to make a type specimen book. It has survived not only
+          five
+        </p>
+        <button>Read More</button>
+      </div>
+    </section>
+    <!-- End -->
+    <section class="works" id="work">
+      <div class="title">
+        <h2>See More Our Work</h2>
+        <p>
+          It is a long established fact that a reader will be distracted by the
+          readable content of a page when looking at its layout. The point of
+          using Lorem Ipsum is that it has a istribution of letters, content
+          here', making it look like readable English. Many desktop publishing
+          packages
+        </p>
+      </div>
+      <div class="content-card">
+        <div class="card">
+          <div class="item">
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Modi
+              voluptate architecto aliquam voluptates impedit praesentium
+              necessitatibus quae excepturi accusamus aspernatur obcaecati iusto
+              dolorem beatae assumenda, accusantium culpa fugiat quibusdam
+              porro!
+            </p>
+            <button>Read More</button>
+          </div>
+          <img src="images/work4.jpg" alt="" />
+        </div>
+        <div class="card">
+          <div class="item">
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Modi
+              voluptate architecto aliquam voluptates impedit praesentium
+              necessitatibus quae excepturi accusamus aspernatur obcaecati iusto
+              dolorem beatae assumenda, accusantium culpa fugiat quibusdam
+              porro!
+            </p>
+            <button>Read More</button>
+          </div>
+          <img src="images/work2.jpg" alt="" />
+        </div>
+        <div class="card">
+          <div class="item">
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Modi
+              voluptate architecto aliquam voluptates impedit praesentium
+              necessitatibus quae excepturi accusamus aspernatur obcaecati iusto
+              dolorem beatae assumenda, accusantium culpa fugiat quibusdam
+              porro!
+            </p>
+            <button>Read More</button>
+          </div>
+          <img src="images/work3.jpg" alt="" />
+        </div>
+        <div class="card">
+          <div class="item">
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Modi
+              voluptate architecto aliquam voluptates impedit praesentium
+              necessitatibus quae excepturi accusamus aspernatur obcaecati iusto
+              dolorem beatae assumenda, accusantium culpa fugiat quibusdam
+              porro!
+            </p>
+            <button>Read More</button>
+          </div>
+          <img src="images/work1.jpg" alt="" />
+        </div>
+      </div>
+    </section>
+    <!-- Enf oF work section  -->
+    <sction class="busnies">
+      <div class="descrption">
+        <h2>Let’s Talk Business</h2>
+      </div>
+      <div class="form">
+        <input type="text" placeholder="Name" />
+        <input type="tel" placeholder="Phone Number" />
+        <input type="email" placeholder="Email" />
+        <input type="text" class="area" placeholder="Message" />
+        <input type="submit" value="SEND" />
+      </div>
+    </sction>
+    <!-- End Of Form -->
+    <footer>
+      <p>© Copyright 2024 All Right Reserved By <span>Ahmed El Sawah</span></p>
+    </footer>
+    <script>
+      let icon = document.querySelector(".show");
+      let list = document.getElementById("list");
+      icon.onclick = function visabl() {
+        list.classList.toggle("open");
+      };
+    </script>
+  </body>
+</html>
